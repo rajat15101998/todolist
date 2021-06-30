@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <h1>To Do List</h1>
+    <div class="container">
+         <input type="text" id = "inputField" >
+         <input type="hidden" id = "saveIndex" >
+         <button id="addButton">Add</button>
+         <button id="deleteAllButton">Delete All</button>
+         <button id="saveButton">Save</button>
+
+          <table id="addedTasklistTable" >
+            <tr>
+                <th style="width: 10%" >Select</th>
+                <th style="width: 55%" >Task Name</th>
+                <th style="width: 35%" >Action</th>
+            </tr>
+          </table>
+                
+          <table id="tasklist_analysis_table"> 
+            <tr>
+                <td>Total Tasks</td>
+                <td id="totaltasks"></td>
+            </tr>
+            <tr>
+                <td>Tasks Completed<drug></td>
+                <td id="taskscompleted"></td>
+            </tr>
+            <tr>
+                <td>Tasks Left</td>
+                <td id="tasksleft"></td>
+            </tr>
+            <tr>
+                <td>Efficiency</td>
+                <td id="efficiency"></td>
+            </tr>
+          </table>
+         
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+html, body {
+    width: 70%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 800px;
+}
+
+#inputField {
+    width: 395px;
+    height: 40px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+#addButton {
+    height: 44px;
+    width: 90px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+#saveButton {
+    height: 44px;
+    width: 90px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+#deleteAllButton {
+    height: 44px;
+    width: 150px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#addedTasklistTable{
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 650px;
+}
+
+#tasklist_analysis_table, th, td {
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 650px;
+ }
+
+ .checkboxEvaluation {
+     text-decoration-line: line-through;
+ }
